@@ -207,35 +207,74 @@ sudo docker rmi <image-id>
 
 ## Git Commands
 
-Initialize Repository
+## Git Commands
+
+### Initialize Git Repository
 
 ```bash
 git init
 ```
 
-Add Files
+### Check Repository Status
+
+```bash
+git status
+```
+
+### Add All Files
 
 ```bash
 git add .
 ```
 
-Commit Changes
+### Commit Changes
 
 ```bash
 git commit -m "Initial commit"
 ```
 
-Add Remote Repository
+### Rename Current Branch to Main
 
 ```bash
-git remote add origin https://github.com/OM0126/simple-java-docker.git
+git branch -M main
 ```
 
-Push to GitHub
+### Add Remote Repository
+
+```bash
+git remote add origin https://github.com/<username>/<repository-name>.git
+```
+
+### Check Configured Remote
+
+```bash
+git remote -v
+```
+
+### Change Existing Remote URL
+
+```bash
+git remote set-url origin https://github.com/<username>/<repository-name>.git
+```
+
+### Push Code to GitHub
 
 ```bash
 git push -u origin main
 ```
+
+### Pull Latest Changes
+
+```bash
+git pull origin main
+```
+
+### Clone Repository
+
+```bash
+git clone https://github.com/<username>/<repository-name>.git
+```
+
 
 ---
 
