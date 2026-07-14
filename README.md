@@ -13,7 +13,7 @@ This project demonstrates how to:
 * Build a Docker image
 * Run a Docker container
 * Verify Docker images and containers
-* Push the project to GitHub
+* Push the project to GitHub.
 
 ---
 
