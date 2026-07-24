@@ -24,7 +24,7 @@ This project demonstrates how to:
 * Ubuntu 22.04
 * AWS EC2
 * Git
-* GitHub
+* GitHub.
 
 ---
 
