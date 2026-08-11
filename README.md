@@ -4,7 +4,7 @@ A simple Java application containerized using Docker and deployed on an AWS EC2 
 
 ## Project Overview
 
-This project demonstrates how to:
+This project demonstrates how to
 
 * Launch an AWS EC2 Ubuntu instance
 * Connect to the EC2 instance using SSH
